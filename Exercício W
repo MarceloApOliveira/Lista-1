@@ -1,0 +1,10 @@
+
+#include<stdio.h>
+void main ()
+{
+    float pes, dm;
+    printf("Medida em pes: ");
+    scanf("%f", &pes);
+    dm=pes*0.3048;
+    printf("Medida em metros: %f", dm);
+}
