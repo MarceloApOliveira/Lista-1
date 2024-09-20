@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+ float qnt_dolar, cot_dolar, val_real;
+ printf("Qntd de dolares: US$ ");
+ scanf("%f", &qnt_dolar);
+ printf("Cotacao do dolar: R$ ");
+ scanf("%f", &cot_dolar);
+ val_real=qnt_dolar*cot_dolar;
+ printf("O valor em Reais sera: R$ %.2f", val_real);
+}
