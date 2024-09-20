@@ -1,0 +1,12 @@
+# include<stdio.h>
+#include<math.h>
+void main ()
+{
+  float B, E, P;
+  printf("Base: ");
+  scanf("%f",&B);
+  printf("Expoente: ");
+  scanf("%f",&E);
+  P=pow(B,E);
+  printf("Potencia: %.1f", P);
+}
