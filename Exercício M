@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+ int A,B,C,D;
+ printf("Variavel A: ");
+ scanf("%d", &A);
+ printf("Variavel B: ");
+ scanf("%d", &B);
+ printf("Variável C: ");
+ scanf("%d", &C);
+ D=(A*A)+(B*B)+(C*C);
+ printf("A soma do quadrado das variaveis: %d", D);
+}
