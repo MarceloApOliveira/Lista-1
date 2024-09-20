@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+ int A,B,C,D,S,P;
+ printf("Primeiro valor: ");
+ scanf("%d", &A);
+ printf("Segundo valor: ");
+ scanf("%d", &B);
+ printf("Terceiro valor: ");
+ scanf("%d", &C);
+ printf("Quarto valor: ");
+ scanf("%d", &D);
+ S=B+D;
+ P=A*C;
+ printf("O produto do primeiro e terceiro valor: %d x %d = %d \n", A,C,P);
+ printf("A soma do segundo e quarto valor: %d + %d = %d", B,D,S);
+}
