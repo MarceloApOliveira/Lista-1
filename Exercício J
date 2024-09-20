@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+ int A,B, diferenca;
+ printf("Varialvel A: ");
+ scanf("%d", &A);
+ printf("Varialvel B: ");
+ scanf("%d", &B);
+ diferenca=A-B;
+ diferenca=diferenca*diferenca;
+ printf("O quadrado da diferenca: %d", diferenca);
+}
