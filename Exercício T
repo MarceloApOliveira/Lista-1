@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+ float velocidade, tempo, distancia;
+ printf("Velocidade (km/h): ");
+ scanf("%f",&velocidade);
+ printf("Tempo (hrs): ");
+ scanf("%f",&tempo);
+ printf("Distancia (km): ");
+ scanf("%f",&distancia);
+ velocidade=(distancia*1000)/(tempo*60);
+ printf("Sua velocidade eh: %.2f m/s", velocidade);
+}
