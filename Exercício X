@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+void main ()
+{
+    float B, I, R;
+    printf("BASE: ");
+    scanf("%f", &B);
+    printf("INDICE: ");
+    scanf("%f", &I);
+    R=pow(B,1/I);
+    printf("RAIZ: %f", R);
+}
